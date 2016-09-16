@@ -1,0 +1,3 @@
+FROM radial/busyboxplus
+ADD /jq /bin/
+RUN chmod 744 /bin/jq
